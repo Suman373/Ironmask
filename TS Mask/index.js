@@ -9,6 +9,20 @@
         tip.style.color="blue";
         tip.style.textShadow ="none";
         tip.innerText="Speaking....";
+
+        document.querySelector(`.lowerface`).animate(
+            [
+              { height: '3px' },
+              { height: '12px' }
+            ],
+            {
+              duration: 1000,
+              iterations: 20,
+              direction: 'alternate'
+            }
+          );    
+        
+
     }
     // this function is executed after 20s,which is the audio length, making sure html reloads and goes back to the initial state
     setTimeout(function(){
