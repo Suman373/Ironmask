@@ -3,13 +3,15 @@
 
  
 /* CSS RESEt  */
+
 *, *::after, *::before{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    /* background-color: #181818; */
 }
 body{
-    background: rgb(16, 32, 18);
+    background-color: #181818;
     height: 100%;
     width:100%;
 }
@@ -36,7 +38,7 @@ body{
     height:23rem;
     width:18rem;
     background:linear-gradient(to right,
-    white 0%,goldenrod 5%,goldenrod 95%,
+    #ca9615 100%,rgb(218, 159, 32) 95%,
     white 100%);
     margin:8rem auto;
     border-radius: 318px 318px 411px 411px;
@@ -48,9 +50,8 @@ body{
 }
 .outerbox:hover{
     background:linear-gradient(to right,
-    white 0%,goldenrod 10%,goldenrod 90%,
-    white 100%);
-
+    white -10%,#ca9615 10%,rgb(218, 159, 32) 90%,
+    white 110%);
 }
 /* the forehead part with trapezium */
 .forehead{
